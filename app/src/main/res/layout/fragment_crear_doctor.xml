@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".administrador.CrearDoctorFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+    <!-- Campo Nombre -->
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del doctor"
+        android:inputType="textPersonName" />
+
+    <!-- Campo Email -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:importantForAccessibility="yes" />
+
+    <!-- Campo Teléfono -->
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:inputType="phone" />
+
+    <!-- Campo Especialidad (Spinner) -->
+    <TextView
+        android:id="@+id/tvEspecialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialidad"
+        android:paddingBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinnerEspecialidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Campo Calle -->
+    <TextView
+        android:id="@+id/tvCalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calle"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etCalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calle"
+        android:importantForAccessibility="yes" />
+
+    <!-- Campo Distrito -->
+    <TextView
+        android:id="@+id/tvDistrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distrito"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etDistrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Distrito" />
+
+    <!-- Campo Número -->
+    <TextView
+        android:id="@+id/tvNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número" />
+
+    <!-- Campo Número de Cédula -->
+    <TextView
+        android:id="@+id/tvNumeroCedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de cédula"
+        android:paddingBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etNumeroCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de cédula"
+        android:inputType="text" />
+
+    <!-- Botón de Enviar -->
+    <Button
+        android:id="@+id/btnRegistrarDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Doctor"
+
+        android:paddingTop="16dp" />
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+

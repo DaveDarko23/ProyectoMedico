@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:title="Editar Doctor"
+        app:navigationIcon="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        app:titleTextColor="@android:color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <!-- Formulario para editar el doctor -->
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono" />
+
+    <EditText
+        android:id="@+id/etCalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calle" />
+
+    <EditText
+        android:id="@+id/etDistrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Distrito" />
+
+    <EditText
+        android:id="@+id/etNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número" />
+
+    <EditText
+        android:id="@+id/etNumeroCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Cédula" />
+
+    <Spinner
+        android:id="@+id/spinnerEspecialidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnActualizarDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Doctor" />
+</LinearLayout>

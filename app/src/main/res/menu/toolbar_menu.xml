@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/common_google_signin_btn_icon_light_normal" />
+</menu>

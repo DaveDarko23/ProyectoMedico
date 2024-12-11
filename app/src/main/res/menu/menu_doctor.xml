@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_opcion1"
+        android:title="Editar Doctor"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+
+    <item
+        android:id="@+id/menu_opcion2"
+        android:title="Cerrar Sesión"
+        android:icon="@android:drawable/ic_menu_manage"/>
+</menu>

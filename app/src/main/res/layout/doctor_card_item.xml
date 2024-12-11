@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNombreDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Doctor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEspecialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Especialidad: [Especialidad]"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvDistrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distrito: [Distrito]"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: Activo"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_green_dark" />
+</LinearLayout>
